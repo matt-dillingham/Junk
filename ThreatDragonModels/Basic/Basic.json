@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 545,
-                "y": 208
+                "x": 599,
+                "y": 195
               },
               "angle": 0,
               "id": "be3c8746-d4a4-449d-b554-427a05fedef3",
@@ -221,7 +221,12 @@
               "target": {
                 "id": "be3c8746-d4a4-449d-b554-427a05fedef3"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 566,
+                  "y": 347
+                }
+              ],
               "id": "23d0a229-b32d-4aed-8455-d03f73df59ce",
               "labels": [
                 {
@@ -254,8 +259,8 @@
                 "y": 121
               },
               "target": {
-                "x": 421,
-                "y": 349
+                "x": 490,
+                "y": 378
               },
               "vertices": [
                 {
@@ -266,12 +271,51 @@
               "id": "788d8d3d-8861-430b-801d-2f2e71578fa0",
               "z": 11,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "be3c8746-d4a4-449d-b554-427a05fedef3"
+              },
+              "target": {
+                "id": "a28e8573-0357-43a4-8fde-593d722004e2"
+              },
+              "vertices": [
+                {
+                  "x": 682,
+                  "y": 343
+                }
+              ],
+              "id": "16728d61-4453-4141-8fc2-786713e44562",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 9",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 790.4051513671875
+          "width": 903
         }
       }
     ]
