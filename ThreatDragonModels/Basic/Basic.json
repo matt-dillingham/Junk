@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 561,
-                "y": 216
+                "x": 545,
+                "y": 208
               },
               "angle": 0,
               "id": "be3c8746-d4a4-449d-b554-427a05fedef3",
@@ -56,7 +56,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 3"
+                  "text": "webserver"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -103,7 +103,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 3"
+                  "text": "WAF"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -151,12 +151,127 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "bdf1dc88-a654-4c26-bf6e-1ecd25180962"
+              },
+              "target": {
+                "id": "be3c8746-d4a4-449d-b554-427a05fedef3"
+              },
+              "vertices": [],
+              "id": "eb92d8dc-172f-4cd7-af0f-15a72e45e298",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 5",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 529,
+                "y": 400
+              },
+              "angle": 0,
+              "id": "a28e8573-0357-43a4-8fde-593d722004e2",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Application Config"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a28e8573-0357-43a4-8fde-593d722004e2"
+              },
+              "target": {
+                "id": "be3c8746-d4a4-449d-b554-427a05fedef3"
+              },
+              "vertices": [],
+              "id": "23d0a229-b32d-4aed-8455-d03f73df59ce",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 7",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 672,
+                "y": 121
+              },
+              "target": {
+                "x": 421,
+                "y": 349
+              },
+              "vertices": [
+                {
+                  "x": 514,
+                  "y": 171
+                }
+              ],
+              "id": "788d8d3d-8861-430b-801d-2f2e71578fa0",
+              "z": 11,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 790.4051513671875
         }
       }
     ]
